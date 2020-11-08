@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(-135deg, #E4A972, #9941D8);
+    font-family: 'ヒラギノ角ゴシック','Hiragino Sans','Yu Gothic UI',sans-serif;
+    text-align: center;
+    height: 1000px;
+}
+
+#site_title {
+  color: white;
+  font-size: 45px;
+}
+
+#message {
+  font-size: 13px;
+  margin: 18px 0;
+}
+
+#task {
+  margin-top: 10px;
+  border: 1px solid #acacac;
+  color: white;
+  opacity: .7;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 400px;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  font-size: 16px;
+  outline: none;
+  background-color: #acacac;
+}
+
+#task:focus {
+  width: 550px;
+  outline: none;
+}
+
+#add_button {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #212529;
+  border-radius: 10px;
+  padding: 5px 13px;
+  background: #fff;
+}
+
+#add_button:hover {
+  -webkit-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+  -webkit-box-shadow: 0 2px 0 #e6d900;
+  box-shadow: 0 2px 0 #e6d900;
+}
+
+input[type=checkbox] {
+  transform: scale(1.6);
+}
+
+.tasks {
+  background-color:rgba(0,0,0,0);
+  background: linear-gradient(transparent 95%, #ff99ab 70%);
+  border: none;
+  width: 30%;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
