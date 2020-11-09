@@ -13,7 +13,7 @@ $db->execute();
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>ToDO</title>
+  <title>ToDo</title>
   <link rel="stylesheet" type="text/css" href="todo.css">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
@@ -41,7 +41,7 @@ $db->execute();
 ?>
   </div>
 
-  <!--Ajax処理を記載したjsファイルを読み込みます。-->
+  <!--Ajax処理を記載したjsファイルを読み込み-->
 　<script type="text/javascript" src="todo.js"></script>
 </body>
 </html>
