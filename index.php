@@ -13,9 +13,8 @@ $db->execute();
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>テスト</title>
+  <title>ToDO</title>
   <link rel="stylesheet" type="text/css" href="todo.css">
-  <!--ここでjQueryのライブラリを読み込んでます。魔法の言葉です。-->
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 </head>
