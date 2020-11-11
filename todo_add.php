@@ -17,7 +17,7 @@
         $stmt->execute([':task' => $task, ':datetime' => $datetime]);
 
         //データ取得用SQL
-        $sql = "SELECT id, tasks, datetime FROM todolist";
+        $sql = "SELECT id, tasks, datetime FROM todolist ORDER BY datetime DESC";
         //SQLをセット
         $db = $pdo->prepare($sql);
         //SQLを実行

@@ -2,7 +2,7 @@
 //pdoインスタンス生成
 $pdo = new PDO ('mysql:host=mysql1.php.xdomain.ne.jp;dbname=tacody_todoapp;charset=utf8', 'tacody_070124', 'tac070124');
 // データ取得用SQL
-$sql = "SELECT id, tasks, datetime FROM todolist";
+$sql = "SELECT id, tasks, datetime FROM todolist ORDER BY datetime DESC";
 // SQLをセット
 $db = $pdo->prepare($sql);
 // SQLを実行
